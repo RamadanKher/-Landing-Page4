@@ -1,0 +1,111 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+  
+:root {
+    --color-primary: #7C3AED    ;
+    --color-Neutral: #111827    ;
+  }
+body{
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+    color: var(--color-Neutral);
+    overflow-x: hidden;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+
+ }
+
+
+ /* globle */
+ .bg-Neutral{
+     background-color: var(--color-Neutral);
+ }
+ .bg-primary{
+     background-color: var(--color-primary);
+ }
+ .text-neutral{
+     color: var(--color-Neutral);
+ }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 73%;
+}
+.mt-5{
+    margin-top: 5rem !important;
+}
+.margin-left-auto{
+    margin-left: auto !important;
+}
+.text--center{
+    text-align: center;
+}
+.d-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.align--center{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+.d-none{
+    display: none;
+}
+.w-100{
+    width: 100%;
+}
+.justifay--between{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.postion--abslute{
+    position: absolute;
+}
+.postion--relative{
+position: relative;
+}
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 1rem 0;
+}
+.mt-1{
+margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mb-1{
+    margin-bottom:1rem ;
+}
+.mb-2{
+    margin-bottom:2rem !important ;
+}
+
+ /* /globle */
