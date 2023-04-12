@@ -27,3 +27,5 @@ toglleNavList.addEventListener("click",() => {
 window.addEventListener('scroll', () => {
     lightBoxContainer.style.display="none"
 });
+
+AOS.init();

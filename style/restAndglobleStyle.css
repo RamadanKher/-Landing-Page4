@@ -13,7 +13,7 @@
   }
 body{
     scroll-behavior: smooth;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Sen', sans-serif !important; 
     color: var(--color-Neutral);
     overflow-x: hidden;
 
